@@ -39,7 +39,7 @@ final_file[13,"Long.Name"]
 sum(!is.na(final_file[,2]))
 
 #Q4
-names(final_file)
+names(final_file) #dasdasdasdasdasd
 data4 <- final_file[!is.na(final_file$Ranking),c(1,2,12)]
 dim(data4)
 tbl_df(data4)
