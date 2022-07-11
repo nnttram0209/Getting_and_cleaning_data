@@ -19,4 +19,4 @@ mean(Q2s)
 
 #Q3
 countryNames <- data2[,4]
-grep("^United", countryNames, value = TRUE)
+grep("^United", countryNames)
